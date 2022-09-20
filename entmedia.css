@@ -1,0 +1,314 @@
+
+
+@media (max-width: 1600px) {
+    .new-model .content .text {
+        max-width: 500px;
+    }
+
+    .new-model .content .mainpic img {
+        width: 700px;
+    }
+
+    .improve .content .text {
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .improve .content .text p {
+        margin-bottom: 30px;
+    }
+
+    .improve .content .boxes {
+        margin-bottom: 40px;
+    }
+
+    .improve .content .boxes .box {
+        margin-top: 20px;
+    }
+
+    
+}
+
+@media (max-width: 1500px) {
+    .info .content .kickstart .text,
+    .info .content .onboard .text,
+    .info .content .engage .text {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .work .content .boxes {
+        flex-wrap: wrap;
+    }
+
+    .work .content .boxes .box {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .links,
+    .ft-links {
+        max-width: 700px;
+    }
+
+    .new-model .content .mainpic img {
+        width: 500px;
+    }
+
+    .info .content .kickstart,
+    .info .content .engage {
+        flex-direction: column;
+    }
+
+    .info .content .onboard {
+        flex-direction: column-reverse;
+    }
+
+    .info .content .kickstart .text,
+    .info .content .onboard .text,
+    .info .content .engage .text {
+        margin-bottom: 40px;
+        max-width: 700px;
+    }
+
+    .info .content .kickstart .text img,
+    .info .content .onboard .text img,
+    .info .content .engage .text img {
+        margin-bottom: 10px;
+    }
+
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .logo,
+    .ft-logo {
+        max-width: 200px;
+    }
+
+    .new-model .content .text {
+        max-width: 400px;
+    }
+
+    .work .content .text {
+        max-width: 800px;
+    }
+
+    .work .content .text h2 {
+        text-align: center;
+    }
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 950px) {
+    .main-header,
+    .main-footer {
+        flex-direction: column;
+    }
+
+    .logo,
+    .ft-logo {
+        margin-bottom: 40px;
+    }
+
+    .new-model .content {
+        flex-direction: column-reverse;
+    }
+
+    .new-model .content .text {
+        max-width: 750px;
+    }
+
+    .new-model .content .mainpic img {
+        max-width: 750px;
+    }
+
+    .work .content .text {
+        max-width: 600px;
+    }
+
+    .improve .content .text {
+        max-width: 600px;
+    }
+
+    .start .content {
+        flex-direction: column-reverse;
+    }
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-header {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 30px;
+    }
+
+    .links {
+        width: 0;
+    }
+
+    .links-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+        padding-left: 30px;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .new-model .content .text {
+        max-width: 500px;
+    }
+
+    .info .content .kickstart .text,
+    .info .content .onboard .text,
+    .info .content .engage .text {
+        max-width: 500px;
+    }
+
+    .info .content .kickstart .box,
+    .info .content .onboard .box,
+    .info .content .engage .box {
+        flex-direction: column;
+    }
+
+    .info .content .kickstart .box {
+        max-width: 385px;
+    }
+
+    .info .content .onboard .box,
+    .info .content .engage .box .write,
+    .info .content .engage .box .app {
+        max-width: 300px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .work .content .text {
+        max-width: 500px;
+    }
+
+    .improve .content .text {
+        max-width: 450px;
+    }
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    .new-model .content .text {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .new-model .content .text h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .early-acc {
+        margin: 0 auto;
+    }
+
+    .new-model .content .mainpic img {
+        width: 300px;
+    }
+
+    .work .content .text {
+        max-width: 290px;
+    }
+
+    .work .content .boxes .box {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .work .content .text h2,
+    .info .content .kickstart .text h2,
+    .info .content .onboard .text h2,
+    .info .content .engage .text h2,
+    .improve .content .text h2,
+    .start .content .text h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .info .content .kickstart .text,
+    .info .content .onboard .text,
+    .info .content .engage .text {
+        max-width: 300px;
+    }
+
+    .info .content .kickstart .box,
+    .info .content .onboard .box,
+    .info .content .engage .box .write,
+    .info .content .engage .box .app  {
+        max-width: 280px;
+        padding: 10px;
+    }
+
+    .info .content .engage .box .app .applicants img {
+        margin-right: 5px;
+    }
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .ft-links-list {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;   
+        max-width: 200px;
+    }
+
+    .ft-links-list li {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .improve .content .text {
+        max-width: 300px;
+    }
+
+    .start .content .text,
+    .start .content .startpic {
+        max-width: 300px;
+    }
+}
